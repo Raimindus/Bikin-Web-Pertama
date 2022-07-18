@@ -5,6 +5,7 @@
 }
 
 body {
+    background: #444;
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -14,4 +15,35 @@ body {
     width: 1800px;
     margin: auto;
     position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 500px;
+    float: left;
+    font-family: courier;
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+}
+
+b.tombol-home {
+    position: relative;
+    background: rgb(47, 0, 255);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 20px;
+}
+b.tombol-menu {
+    position: relative;
+    background: rgb(47, 0, 255);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 10px 20px;
 }
